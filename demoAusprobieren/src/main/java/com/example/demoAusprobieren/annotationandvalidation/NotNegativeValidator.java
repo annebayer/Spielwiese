@@ -1,7 +1,7 @@
 package com.example.demoAusprobieren.annotationandvalidation;
 
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
 
 public class NotNegativeValidator implements ConstraintValidator<NotNegative, Number> {
 
