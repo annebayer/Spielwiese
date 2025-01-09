@@ -1,4 +1,4 @@
-package com.example.demoAusprobieren.datenbank;
+package com.example.demoausprobieren.datenbank;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -12,8 +12,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/countries")
 public class DatenbankH2Controller {
+    private final CountryService countryService;
+
     @Autowired
-    private CountryService countryService;
+    public DatenbankH2Controller(CountryService countryService) {
+        this.countryService = countryService;
+
+    }
+
 
     @GetMapping("/{id}")
     public ResponseEntity<DatenbankEntity> getCountry(@PathVariable int id) {

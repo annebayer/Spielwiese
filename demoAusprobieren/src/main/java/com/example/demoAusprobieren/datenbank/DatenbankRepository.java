@@ -1,4 +1,4 @@
-package com.example.demoAusprobieren.datenbank;
+package com.example.demoausprobieren.datenbank;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

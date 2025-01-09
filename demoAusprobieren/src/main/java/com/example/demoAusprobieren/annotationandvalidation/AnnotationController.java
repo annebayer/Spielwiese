@@ -1,4 +1,4 @@
-package com.example.demoAusprobieren.annotationandvalidation;
+package com.example.demoausprobieren.annotationandvalidation;
 
 import java.util.Set;
 

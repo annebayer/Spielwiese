@@ -1,4 +1,4 @@
-package com.example.demoAusprobieren;
+package com.example.demoausprobieren;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
